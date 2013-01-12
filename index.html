@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html> <!-- THIS IS DUE NOVEMBER 29TH -->
+	<head>
+		<title>margines photogame</title>
+		<script src = "/socket.io/socket.io.js"> </script>
+		<script src="ClientFunctionality.js" type="text/javascript"></script>
+		<script type="text/javascript" src="jquery-1.8.2.js"></script>
+		<link rel="stylesheet" href="css/bootstrap.min.css" type = "text/css" media="screen"> </link>
+	    <link rel="stylesheet" href="photogame.css" type="text/css">
+	</head>
+	<body>
+		<div id="outerDiv">
+
+    	<div class="navbar navbar-inverse navbar-fixed-top">
+	        	<div class="navbar-inner">
+	            	<div class="container">
+	            	<div class="brand">margines photogame</div>
+	        	</div>
+	        </div>
+        </div>
+
+        <div id="instructionsText" class="alert">
+        	 <button type="button" class="close" data-dismiss="alert">X</button>
+				 <strong>Game Instructions!</strong> Wait for the cue, then find the most "appropriate" image for that phrase. Make sure the filename ends in one of the normal image extensions. You've got 30 seconds! Then, you'll be shown everyone's image submissions - select your favorite.
+		</div>
+
+        <div id="gameState">
+        </div>
+
+        <div id="gameDiv">
+        	<div id="gameDivLeftColumn" class="gameDivColumn">
+    		</div>
+        <div id="gameDivRightColumn" class="gameDivColumn">
+        </div>
+        <div class="clear"> </div>
+      </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

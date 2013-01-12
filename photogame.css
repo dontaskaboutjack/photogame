@@ -1,0 +1,125 @@
+body { 
+    padding-top: 65px; 
+}
+
+#instructionsDiv {
+	width: 75%;
+	xheight: 400px;
+	xborder-style:solid;
+    xborder-width: 2px;
+    xborder-color: red;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFEECF;
+}
+
+.clear {
+	clear: both;
+}
+
+#instructionsText {
+	width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+	xborder-style:solid;
+    xborder-width:5px;
+
+}
+
+#instructionsX {
+	float: right;
+	xborder-style:solid;
+    xborder-width:5px;
+}
+
+#gameDiv {
+	xborder-style:solid;
+    xborder-width:5px;
+    xborder-color: red;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gameDivColumn {
+	border-style:solid;
+    border-width:5px;
+    width: 48%;
+}
+
+#gameDivRightColumn {
+	xborder-style:solid;
+    xborder-width:5px;
+    xborder-color: blue;
+    float: right;
+}
+
+#gameDivLeftColumn {
+	xborder-style:solid;
+    xborder-width:5px;
+    xborder-color: green;
+    float: left;
+}
+
+.clientDiv {
+	border-style:solid;
+    border-width:3px;
+    border-color: gray;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.username {
+	float: left;
+    font-size: 20px;
+    padding: 5px;
+    color: black;
+}
+
+.points {
+	float: right;
+    font-size: 20px;
+    padding: 5px;
+    color: black;
+}
+
+#gameState {
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+#stringDiv {
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+.submit {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    padding-left: 2.5%;
+}
+
+.submitInput{
+    margin-left: auto;
+    margin-right: auto;
+    width: 94%;
+    text-align: center;
+    height: 40px;
+    font-size: 24px;
+    color: gray;
+}
+
+.grey{
+    height: 45px;
+    width: 100%;
+}
