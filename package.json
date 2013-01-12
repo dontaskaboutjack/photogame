@@ -5,7 +5,6 @@
     "socket.io" : "0.9.10"
   },
   "engines" : {
-    "node": "0.8.11",
-    //"npm": "1.1.62" computer says .62, commenting out to go with default
+    "node": "0.8.11"
   }
 }
