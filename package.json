@@ -1,5 +1,11 @@
 {
   "name" : "photogame",
   "version" : "1",
-  "dependencies" : [],
+  "dependencies" : {
+    "socket.io" : "0.9.10"
+  },
+  "engines" : {
+    "node": "0.8.11",
+    "npm": "1.1.62"
+  }
 }
