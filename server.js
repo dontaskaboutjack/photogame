@@ -29,7 +29,15 @@ var app = require('http').createServer(handler),
 	fs = require('fs'),
 	path = require('path')
 
-app.listen(27007);
+//added according to http://stackoverflow.com/questions/7503632/node-js-port-issue-on-heroku-cedar-stack
+var port = process.env.PORT || 3000;
+app.listen(port);
+
+//added according to https://devcenter.heroku.com/articles/using-socket-io-with-node-js-on-heroku and http://stackoverflow.com/questions/6223867/can-i-set-up-socket-io-chat-on-heroku
+io.configure(function () { 
+  io.set("transports", ["xhr-polling"]); 
+  io.set("polling duration", 10); 
+});
 
 var __dirname = 'C://Users//Jack Benjamin//Documents//Carnegie-Mellon MHCII//SSUI//Final Project';
 
